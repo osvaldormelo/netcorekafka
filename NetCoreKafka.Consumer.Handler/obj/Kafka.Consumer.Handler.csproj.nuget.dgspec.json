@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/Kafka.Consumer.Handler.csproj": {}
+  },
+  "projects": {
+    "/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/Kafka.Consumer.Handler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/Kafka.Consumer.Handler.csproj",
+        "projectName": "Kafka.Consumer.Handler",
+        "projectPath": "/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/Kafka.Consumer.Handler.csproj",
+        "packagesPath": "/Users/omelo/.nuget/packages/",
+        "outputPath": "/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/omelo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.4.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
