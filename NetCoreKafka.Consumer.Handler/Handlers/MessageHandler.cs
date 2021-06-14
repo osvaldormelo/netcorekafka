@@ -22,13 +22,13 @@ namespace Kafka.Consumer.Handler.Handlers
             var conf = new ConsumerConfig
             {
                 GroupId = "test-consumer-group",
-                BootstrapServers = "localhost:9092",
+                BootstrapServers = "172.30.116.178:9092",
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
 
             using (var c = new ConsumerBuilder<Ignore, string>(conf).Build())
             {
-                c.Subscribe("fila_pedido");
+                c.Subscribe("pet-new");
                 var cts = new CancellationTokenSource();
 
                 try
