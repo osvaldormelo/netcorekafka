@@ -33,10 +33,12 @@ namespace Kafka.Consumer.Handler.Handlers
 
                 try
                 {
+                    Console.WriteLine("Connected to Kafka");
                     while (true)
                     {
                         var message = c.Consume(cts.Token);
                         _logger.LogInformation($"Mensagem: {message.Value} recebida de {message.TopicPartitionOffset}");
+                        Console.WriteLine($"Mensagem: {message.Value} recebida de {message.TopicPartitionOffset}");
                     }
                 }
                 catch (OperationCanceledException)
