@@ -22,13 +22,13 @@ namespace Kafka.Consumer.Handler.Handlers
             var conf = new ConsumerConfig
             {
                 GroupId = "test-consumer-group",
-                BootstrapServers = "my-cluster-kafka-brokers.dotnet-amq-streams.svc:9092",
+                BootstrapServers = "my-cluster-kafka-brokers.kafka-havan.svc:9092",
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
 
             using (var c = new ConsumerBuilder<Ignore, string>(conf).Build())
             {
-                c.Subscribe("pet-new");
+                c.Subscribe("havan");
                 var cts = new CancellationTokenSource();
 
                 try
