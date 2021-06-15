@@ -26,7 +26,7 @@ namespace Kafka.Producer.API.Controllers
                 try
                 {
                     var sendResult = producer
-                                        .ProduceAsync("fila_pedido", new Message<Null, string> { Value = message })
+                                        .ProduceAsync("pet-new", new Message<Null, string> { Value = message })
                                             .GetAwaiter()
                                                 .GetResult();
 
