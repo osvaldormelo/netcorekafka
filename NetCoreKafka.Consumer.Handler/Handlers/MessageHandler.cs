@@ -22,7 +22,7 @@ namespace Kafka.Consumer.Handler.Handlers
             var conf = new ConsumerConfig
             {
                 GroupId = "test-consumer-group",
-                BootstrapServers = "172.30.116.178:9092",
+                BootstrapServers = "my-cluster-kafka-brokers.dotnet-amq-streams.svc:9092",
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
 
