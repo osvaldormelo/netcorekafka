@@ -19,7 +19,7 @@ namespace Kafka.Producer.API.Controllers
 
         private string SendMessageByKafka(string message)
         {
-            var config = new ProducerConfig { BootstrapServers = "my-cluster-kafka-brokers.kafka-havan.svc:9092" };
+            var config = new ProducerConfig { BootstrapServers = "kafka-poc-havan-kafka-brokers.kafka-poc.svc:9092" };
 
             using (var producer = new ProducerBuilder<Null, string>(config).Build())
             {

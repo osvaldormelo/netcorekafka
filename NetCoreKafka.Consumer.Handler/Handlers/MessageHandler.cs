@@ -22,7 +22,7 @@ namespace Kafka.Consumer.Handler.Handlers
             var conf = new ConsumerConfig
             {
                 GroupId = "test-consumer-group",
-                BootstrapServers = "my-cluster-kafka-brokers.kafka-havan.svc:9092",
+                BootstrapServers = "kafka-poc-havan-kafka-brokers.kafka-poc.svc:9092",
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
 
