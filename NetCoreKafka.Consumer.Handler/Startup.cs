@@ -19,6 +19,7 @@ namespace Kafka.Consumer.Handler
             services.AddSingleton<IHostedService, MessageHandler>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

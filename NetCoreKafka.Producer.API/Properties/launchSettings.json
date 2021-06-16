@@ -14,7 +14,9 @@
       "launchBrowser": true,
       "launchUrl": "api/values",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "KAFKA_BOOTSTRAP": "my-cluster-kafka-brokers.net-core-kafka.svc:9092",
+        "KAFKA_TOPIC": "teste"
       }
     },
     "Kafka.Producer.API": {

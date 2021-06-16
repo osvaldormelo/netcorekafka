@@ -4,10 +4,17 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Kafka.Producer.API.Controllers
 {
+    
+
     [Route("api/[controller]")]
     [ApiController]
     public class ProducerController : ControllerBase
     {
+        private readonly IConfiguration _configuration;
+        public ProducerController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
         [HttpPost]
         [ProducesResponseType(typeof(string), 201)]
         [ProducesResponseType(400)]
@@ -19,14 +26,14 @@ namespace Kafka.Producer.API.Controllers
 
         private string SendMessageByKafka(string message)
         {
-            var config = new ProducerConfig { BootstrapServers = "kafka-poc-havan-kafka-brokers.kafka-poc.svc:9092" };
+            var config = new ProducerConfig { BootstrapServers = _configuration.GetValue<string>("KAFKA_BOOTSTRAP") };
 
             using (var producer = new ProducerBuilder<Null, string>(config).Build())
             {
                 try
                 {
                     var sendResult = producer
-                                        .ProduceAsync("havan", new Message<Null, string> { Value = message })
+                                        .ProduceAsync(_configuration.GetValue<string>("KAFKA_TOPIC"), new Message<Null, string> { Value = message })
                                             .GetAwaiter()
                                                 .GetResult();
 
