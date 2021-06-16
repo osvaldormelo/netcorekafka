@@ -2,6 +2,8 @@
 using Confluent.Kafka;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Kafka.Producer.API.Models;
+using System.Text.Json;
 
 namespace Kafka.Producer.API.Controllers
 {
@@ -20,12 +22,12 @@ namespace Kafka.Producer.API.Controllers
         [ProducesResponseType(typeof(string), 201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(500)]
-        public IActionResult Post([FromQuery] string msg)
+        public IActionResult Post(Product msg)
         {
             return Created("", SendMessageByKafka(msg));
         }
 
-        private string SendMessageByKafka(string message)
+        private string SendMessageByKafka(Product message)
         {
             var config = new ProducerConfig { BootstrapServers = _configuration.GetValue<string>("KAFKA_BOOTSTRAP") };
 
@@ -34,7 +36,7 @@ namespace Kafka.Producer.API.Controllers
                 try
                 {
                     var sendResult = producer
-                                        .ProduceAsync(_configuration.GetValue<string>("KAFKA_TOPIC"), new Message<Null, string> { Value = message })
+                                        .ProduceAsync(_configuration.GetValue<string>("KAFKA_TOPIC"), new Message<Null, string> { Value = JsonSerializer.Serialize(message) })
                                             .GetAwaiter()
                                                 .GetResult();
 
