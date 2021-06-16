@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/var/root/.dotnet/store/|arch|/|tfm|",
-      "/var/root/.nuget/packages",
+      "/Users/omelo/.dotnet/store/|arch|/|tfm|",
+      "/Users/omelo/.nuget/packages",
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
     ]
   }

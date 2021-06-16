@@ -7,6 +7,7 @@
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Kafka.Producer.API.pdb
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Confluent.Kafka.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
@@ -14,6 +15,7 @@
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -23,6 +25,7 @@
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -60,6 +63,3 @@
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.pdb
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.genruntimeconfig.cache
-/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
-/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll

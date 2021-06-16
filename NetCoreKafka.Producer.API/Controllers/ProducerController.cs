@@ -1,6 +1,7 @@
 ﻿using System;
 using Confluent.Kafka;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 namespace Kafka.Producer.API.Controllers
 {

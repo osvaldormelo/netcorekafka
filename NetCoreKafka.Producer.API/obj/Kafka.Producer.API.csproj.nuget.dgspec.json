@@ -10,14 +10,14 @@
         "projectUniqueName": "/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/Kafka.Producer.API.csproj",
         "projectName": "Kafka.Producer.API",
         "projectPath": "/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/Kafka.Producer.API.csproj",
-        "packagesPath": "/var/root/.nuget/packages/",
+        "packagesPath": "/Users/omelo/.nuget/packages/",
         "outputPath": "/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/var/root/.nuget/NuGet/NuGet.Config"
+          "/Users/omelo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
