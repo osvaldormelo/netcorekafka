@@ -33,3 +33,8 @@
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/obj/Debug/netcoreapp3.1/Kafka.Consumer.Handler.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/obj/Debug/netcoreapp3.1/Kafka.Consumer.Handler.pdb
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/obj/Debug/netcoreapp3.1/Kafka.Consumer.Handler.genruntimeconfig.cache
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/bin/Debug/netcoreapp3.1/DnsClient.dll
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/bin/Debug/netcoreapp3.1/MongoDB.Bson.dll
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/bin/Debug/netcoreapp3.1/MongoDB.Driver.dll
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/bin/Debug/netcoreapp3.1/MongoDB.Driver.Core.dll
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Consumer.Handler/bin/Debug/netcoreapp3.1/SharpCompress.dll

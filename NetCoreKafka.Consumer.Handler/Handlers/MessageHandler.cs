@@ -7,6 +7,9 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Text.Json;
+using Kafka.Consumer.Handler.Models;
+using Kafka.Consumer.Handler.Data;
 
 namespace Kafka.Consumer.Handler.Handlers
 {
@@ -39,9 +42,11 @@ namespace Kafka.Consumer.Handler.Handlers
                     Console.WriteLine("Connected to Kafka");
                     while (true)
                     {
-                        var message = c.Consume(cts.Token);
-                        _logger.LogInformation($"Mensagem: {message.Value} recebida de {message.TopicPartitionOffset}");
+                        var message = c.Consume(cts.Token);                        
                         Console.WriteLine($"Mensagem: {message.Value} recebida de {message.TopicPartitionOffset}");
+                        Product produto = JsonSerializer.Deserialize<Product>(message.Value);
+                        MongoDBClient mongo = new MongoDBClient(_configuration);
+                        mongo.IncluirProduto(produto);
                     }
                 }
                 catch (OperationCanceledException)
@@ -59,4 +64,4 @@ namespace Kafka.Consumer.Handler.Handlers
             return Task.CompletedTask;
         }
     }
-}
+}       
