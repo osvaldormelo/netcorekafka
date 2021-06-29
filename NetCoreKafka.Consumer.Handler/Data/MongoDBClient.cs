@@ -18,6 +18,7 @@ namespace Kafka.Consumer.Handler.Data
         {
             try
             {
+                if(_configuration.GetValue<string>("MONGO_DB") != ""){
                 MongoClient client = new MongoClient(
                     _configuration.GetValue<string>("MONGO_DB"));
                 IMongoDatabase db = client.GetDatabase("DBCatalogo");
@@ -28,6 +29,7 @@ namespace Kafka.Consumer.Handler.Data
                 catalogoProdutos.InsertOne(produto);
 
                 Console.WriteLine("Produto Incluido com sucesso");
+                }
             }
             catch (Exception e)
             {

@@ -1,9 +1,3 @@
-/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.csprojAssemblyReference.cache
-/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.AssemblyInfoInputs.cache
-/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.AssemblyInfo.cs
-/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.csproj.CoreCompileInputs.cache
-/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.MvcApplicationPartsAssemblyInfo.cs
-/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.MvcApplicationPartsAssemblyInfo.cache
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/Kafka.Producer.API.deps.json
@@ -58,6 +52,12 @@
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/msvcp120.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/msvcr120.dll
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/zlib.dll
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.csprojAssemblyReference.cache
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.AssemblyInfoInputs.cache
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.AssemblyInfo.cs
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.csproj.CoreCompileInputs.cache
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.MvcApplicationPartsAssemblyInfo.cs
+/Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.MvcApplicationPartsAssemblyInfo.cache
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.RazorTargetAssemblyInfo.cache
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.csproj.CopyComplete
 /Users/omelo/Repos/netcorekafka/netcorekafka/NetCoreKafka.Producer.API/obj/Debug/netcoreapp3.1/Kafka.Producer.API.dll
