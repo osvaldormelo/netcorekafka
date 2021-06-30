@@ -1,1 +1,1 @@
-DOTNET_STARTUP_PROJECT=Kafka.Consumer.handler.csproj
+DOTNET_STARTUP_PROJECT=Kafka.Consumer.Handler.csproj
